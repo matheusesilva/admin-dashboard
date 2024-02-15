@@ -213,11 +213,6 @@ main {
     font-weight: 800;
 }
 
-.card {
-    min-width: 300px;
-    position: relative;
-}
-
 .card p {
     margin: 1rem 0 3rem 0;
 }
@@ -233,6 +228,13 @@ main {
     border: 1px solid lightgrey;
     border-radius: 15px;
     box-shadow: 2px 3px 2px 2px black;
+}
+
+.card {
+    min-width: 300px;
+    position: relative;
+    padding-left: 2rem;
+    box-shadow: 2px 3px 2px 2px black, inset 10px 0px 0px lightgray;
 }
 
 .card-buttons {
