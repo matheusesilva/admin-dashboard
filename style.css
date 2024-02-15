@@ -272,10 +272,9 @@ main {
     }
     &:hover {
         background-color: hsl(0, 0%, 95%);
-        box-shadow: 2px 3px 2px 2px hsl(0, 0%, 70%),
-                 inset 10px 0px 0px var(--yellow),
-                 inset 2px 2px 2px var(--yellow),
-                 inset -2px -2px 2px var(--yellow);
+        box-shadow:inset 10px 0px 0px var(--yellow),
+                 inset 3px 3px 0px var(--yellow),
+                 inset -3px -3px 0px var(--yellow);
     }
 }
 
